@@ -1,7 +1,7 @@
 # Girvan-Newman
 This is an implementation of Girvan Newman algorithm using Spark
 
-
+<pre>
 DESCRIBING PARALLEL COMPUTATION OF EDGE BETWEENESS USING SPARK
 
 To compute the betweeness code in parallel:
@@ -21,4 +21,5 @@ To compute the betweeness code in parallel:
 4. The value 7 is the number of partitions for the nodes being loaded into an RDD. This way, for the sample input, each node is in its own partition and when we use data with larger nodes, it partitions the nodes as required. len(list of nodes)/7
 
 5. The rest of the computation is done on each partition in parallel.
+</pre>
 © 2019 GitHub, Inc.
